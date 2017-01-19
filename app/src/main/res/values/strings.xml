@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RHClient</string>
+    <string name="get_button">Get it</string>
+    <string-array name="categories">
+        <item>Tech</item>
+        <item>Games</item>
+        <item>Books</item>
+        <item>Podcasts</item>
+    </string-array>
+</resources>
