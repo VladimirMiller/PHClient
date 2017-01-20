@@ -49,7 +49,7 @@ public class TimeNotification extends BroadcastReceiver {
                     case 0: break;
                     case 1: {
 
-                        JsonObject object = array.get(array.size()).getAsJsonObject();
+                        JsonObject object = array.get(array.size() - 1).getAsJsonObject();
 
                         JsonObject thumbnail = object.getAsJsonObject("thumbnail");
                         String url = thumbnail.get("image_url").getAsString();
