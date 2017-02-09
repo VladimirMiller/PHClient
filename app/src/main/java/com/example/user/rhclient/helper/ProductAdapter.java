@@ -18,9 +18,9 @@ import java.util.ArrayList;
 
 public class ProductAdapter extends BaseAdapter {
 
-    Context ctx;
-    LayoutInflater inflater;
-    ArrayList<Product> products;
+    private Context ctx;
+    private LayoutInflater inflater;
+    private ArrayList<Product> products;
 
     public ProductAdapter(Context ctx, ArrayList<Product> products) {
         this.ctx = ctx;
